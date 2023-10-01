@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678382499169",
+    "project_id": "munch-on-demand",
+    "storage_bucket": "munch-on-demand.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678382499169:android:9126ba8fae4ac9d1c30120",
+        "android_client_info": {
+          "package_name": "com.example.fooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678382499169-f1io2lpd5eivilgugfffkm4c2am16vl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXUxGzKtsGgkrD_Qv9MIwszqAFJo4A-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678382499169-f1io2lpd5eivilgugfffkm4c2am16vl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

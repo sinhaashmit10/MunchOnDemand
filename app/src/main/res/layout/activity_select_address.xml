@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="16dp"
+        android:textColor="#3D6A08"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:text="Name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:text="Address"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Address" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:text="Phone"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Phone Number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:text="Payment\nMethod"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cashondelivery_1" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placeOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Place My Order"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:background="@drawable/greenbutton"
+        android:textAllCaps="false"/>
+</FrameLayout>

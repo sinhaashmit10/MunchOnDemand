@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">fooddelivery</string>
+    <string-array name="cities_array">
+        <item>Bengaluru</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+        <item>Ahmedabad</item>
+        <item>Jaipur</item>
+        <item>Chandigarh</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="spinner_items">
+        <item>Select an option</item>
+        <!-- Add more items if needed -->
+    </string-array>
+
+
+</resources>
